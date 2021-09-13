@@ -1,7 +1,9 @@
+// @dart=2.9
 import 'package:flutter/material.dart';
 // import 'package:flutter/services.dart';
 // import 'package:locationtest/askpermission.dart';
-import 'package:locationtest/checkgps.dart';
+// import 'package:locationtest/checkgps.dart';
+import 'package:locationtest/feedback.dart';
 import 'package:velocity_x/velocity_x.dart';
 // import 'package:location/location.dart';
 
@@ -21,9 +23,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      home: CheckGps(),
+      home: MyFeedback(),
     );
   }
 }

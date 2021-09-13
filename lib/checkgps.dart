@@ -52,6 +52,7 @@ class _CheckGpsState extends State<CheckGps> {
   }
 
   void initState() {
+    // ignore: todo
     // TODO: implement initState
     super.initState();
 
@@ -60,6 +61,7 @@ class _CheckGpsState extends State<CheckGps> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(),
